@@ -2,11 +2,12 @@ from dotenv import load_dotenv
 from pprint import pprint
 import requests
 import os
+import json
 
 load_dotenv()
 
-def get_current_weather(City="Kansas City"):
-    request_url = f'http://api.openweathermap.org/2.5/weather?app_id={os.getenv("API_KEY")}&q={City}&units=imperial'
+def get_current_weather(city="Kansas City"):
+    request_url = f'http://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={city}&units=imperial'
 
     weather_data = requests.get(request_url).json()
 

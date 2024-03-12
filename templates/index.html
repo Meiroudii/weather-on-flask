@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather weather now</title>
+    <link href="{{ url_for('static', filename='styles/style.css'}}" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>How's my weather?</h1>
+    <form action="/weather">
+        <input type="text" name="city" id="city" placeholder="Enter a city"/>
+        <button type=submit>Get my weather</button>
+    </form>
+	<script src="index.js"></script>
+  </body>
+</html>

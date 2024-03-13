@@ -21,3 +21,12 @@ input, button {
     padding: 1rem;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 300px) {
+    body { 
+        padding: 1rem;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}

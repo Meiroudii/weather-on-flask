@@ -22,164 +22,49 @@ input, button {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 300px) {
-    body { 
-        padding: 1.5rem;
-        min-height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.1rem;
-        padding: 0;
+.weather-result {
+    border-radius: 10px;
+    font-family: cursive, arial;
+    border: 5px solid #b19dff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
 }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-/*
-@media screen and (min-width: 480px) {
-    body { 
-        padding: 1.5rem;
-        min-height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.1rem;
-        padding: 0;
+@media (min-width: 600px) {
+
 }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
+@media (max-width: 599px) {
+    body {
+        padding: 10px;
+        background-color: #333;
+        color: whitesmoke;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
     }
 
-@media screen and (max-width: 600px) {
-    body { 
-        padding: 1.5rem;
-        min-height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.1rem;
-        padding: 0;
-}
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
+    input {
+        font-size: 1rem;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        color: whitesmoke;
+        background: #3330;
     }
-
-/* For Tablet View */
-@media screen and (min-device-width: 768px) 
-    and (max-device-width: 1024px) {
-    body {
-        width: 400px;
-        height: 400px;
-        background-color: #333;
-        color: #fff;
+    button {
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
     }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
+    .weather-result {
         border-radius: 10px;
+        font-family: cursive, arial;
+        border: 2px solid #b19dff;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
     }
 }
- 
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) 
-    and (orientation: portrait) {
-    body {
-        width: 200px;
-        height: 200px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-}
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) 
-    and (orientation: landscape) {
-    body {
-        width: 400px;
-        height: 200px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-}
- 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen
-    and (max-device-width: 640px) {
-    body {
-        width: 400px;
-        height: 200px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-}
- 
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
-    body{
-        width: 400px;
-        height: 400px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-}
- 
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) 
-    and (device-width: 320px) 
-    and (-webkit-min-device-pixel-ratio: 2) {
-    body{
-        width: 400px;
-        height: 400px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-}
- 
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) 
-    and (min-device-width: 375px) 
-    and (-webkit-min-device-pixel-ratio: 3) {
-    body {
-        width: 400px;
-        height: 400px;
-        background-color: #333;
-        color: #fff;
-    }
-    input, button {
-        font-size: 1.1rem;
-        padding: 0;
-        border-radius: 10px;
-    }
-};

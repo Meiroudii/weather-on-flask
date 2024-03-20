@@ -67,4 +67,8 @@ input, button {
         margin: 5px;
         text-align: center;
     }
+
+    img {
+        width: 122px;
+    }
 }

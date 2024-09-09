@@ -5,7 +5,7 @@ Get your whether powered by flask!
 ---
 ## Get the local version
 Clone the repository
-![Cloning a repo](./assets/images/cloning_the_repo.png "cloning a repo")
+![Cloning a repo](./assets/images/repo_clone.png "cloning a repo")
 ```bash
 git clone https://github.com/Meiroudii/weather-on-flask.git
 ```

@@ -5,16 +5,34 @@ Get your whether powered by flask!
 ---
 ## Get the local version
 Clone the repository
-`git clone https://github.com/Meiroudii/weather-on-flask.git`
+![Cloning a repo](./assets/images/cloning_the_repo.png "cloning a repo")
+```bash
+git clone https://github.com/Meiroudii/weather-on-flask.git
+```
 
 Create python environment
-`python3 -m venv venv`
+```bash
+python3 -m venv venv
+```
 
 Activate the environment (for unix)
-`source venv/bin/activate`
+```bash
+source venv/bin/activate
+```
 
 Install the required dependencies
-`pip3 install -r requirements.txt`
+```bash
+pip3 install -r requirements.txt
+```
 
 Activate the server
-`flask run`
+```bash
+flask run
+```
+ 
+**Oneliner move**
+```bash
+git clone https://github.com/Meiroudii/weather-on-flask.git && cd weather-on-flask && python3 -m venv .venv && source .venv/bin/activate && pip3 install -r requirements.txt && flask run
+```
+
+

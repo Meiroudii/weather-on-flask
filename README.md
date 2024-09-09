@@ -1,5 +1,6 @@
 # weather-on-flask
 Get your whether powered by flask!
+![Weather](./assets/images/sample_site.png "sample demo")
 
 ---
 ## Get the local version
